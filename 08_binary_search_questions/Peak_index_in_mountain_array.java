@@ -1,35 +1,35 @@
 public class Peak_index_in_mountain_array {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        int[] arr = { 0, 10, 5, 2 };
+    int[] arr = { 0, 10, 5, 2 };
 
-        int ans = search(arr);
-        System.out.println(ans);
+    int ans = search(arr);
+    System.out.println(ans);
+  }
+
+  static int search(int[] arr) {
+    int start = 0;
+    int end = arr.length - 1;
+
+    while (start < end) {
+      int mid = (start + (end - start) / 2);
+
+      if (arr[mid] > arr[mid + 1]) {
+        // you are in decreasing part of array
+        // this may be the answer but look at left
+        // this is why end != mid - 1
+        end = mid;
+      } else {
+        // you are in ascending part of array
+        // look for answer at right
+        // because we know mid + 1 element > mid element
+        start = mid + 1;
+      }
     }
-
-    static int search(int[] arr) {
-        int start = 0;
-        int end = arr.length - 1;
-
-        while (start < end) {
-            int mid = (start + (end - start) / 2);
-
-            if (arr[mid] > arr[mid + 1]) {
-                // you are in decreasing part of array
-                // this may be the answer but look at left
-                // this is why end != mid - 1
-                end = mid;
-            } else {
-                // you are in ascending part of array
-                // look for answer at right
-                // because we know mid + 1 element > mid element
-                start = mid + 1;
-            }
-        }
-        // in the end start == end and pointing to the largest number because of the two
-        // checks above
-        // start and end are always trying to find max element in the above two checks
-        // hence when they are pointing to just one element , that is the max one
-        return start;
-    }
+    // in the end start == end and pointing to the largest number because of the two
+    // checks above
+    // start and end are always trying to find max element in the above two checks
+    // hence when they are pointing to just one element , that is the max one
+    return start;
+  }
 }

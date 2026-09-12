@@ -3,18 +3,18 @@ import java.util.Scanner;
 
 public class Inputs {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         // System.out.print("please enter some no: ");
-        // int roll_no = input.nextInt();
+        // int roll_no = in.nextInt();
         // System.out.println("Your roll no is " + roll_no);
 
         // int a = 345_000_000;
         // System.out.println(a);
 
-        // String name = input.nextLine();
+        // String name = in.nextLine();
         // System.out.println(name);
 
-        float marks = input.nextFloat();
+        float marks = in.nextFloat();
         System.out.println(marks);
 
         in.close();

@@ -1,17 +1,17 @@
 public class Multidimensional_arrays {
-    public static void main(String[] args) {
-        /*
-         * 1 2 3
-         * 4 5 6
-         * 7 8 9
-         */
+  public static void main(String[] args) {
+    /*
+     * 1 2 3
+     * 4 5 6
+     * 7 8 9
+     */
 
-        int[][] arr = new int[3][]; // mentioning column number is not necessary
+    int[][] arr = new int[3][]; // mentioning column number is not necessary
 
-        int[][] arr2D = {
-                { 1, 2, 3 },
-                { 4, 5, 6 },
-                { 7, 8, 9 }
-        };
-    }
+    int[][] arr2D = {
+        { 1, 2, 3 },
+        { 4, 5, 6 },
+        { 7, 8, 9 }
+    };
+  }
 }
