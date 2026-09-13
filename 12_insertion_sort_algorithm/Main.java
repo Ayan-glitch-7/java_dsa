@@ -29,4 +29,3 @@ public class Main {
     arr[first] = arr[second];
     arr[second] = temp;
   }
-}
