@@ -1,0 +1,33 @@
+/* LEETCODE (# 56) */
+
+// import java.util.Arrays;
+
+public class Main_05 {
+  // public int[][] merge(int[][] intervals) {
+
+  //   Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+
+  //   int[][] ans = new int[intervals.length][2];
+
+  //   ans[0][0] = intervals[0][0];
+  //   ans[0][1] = intervals[0][1];
+
+  //   int k = 0;
+
+  //   for (int i = 1; i < intervals.length; i++) {
+
+  //     if (intervals[i][0] <= ans[k][1]) {
+  //       if (intervals[i][1] > ans[k][1]) {
+  //         ans[k][1] = intervals[i][1];
+  //       }
+  //     }
+
+  //     else {
+  //       k++;
+  //       ans[k][0] = intervals[i][0];
+  //       ans[k][1] = intervals[i][1];
+  //     }
+  //   }
+  //   return Arrays.copyOf(ans, k + 1);
+  // }
+}
