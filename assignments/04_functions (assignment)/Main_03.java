@@ -1,24 +1,24 @@
 import java.util.Scanner;
 
 public class Main_03 {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in);
+    Scanner in = new Scanner(System.in);
 
-        System.out.print("Enter your age : ");
-        int age = in.nextInt();
+    System.out.print("Enter your age : ");
+    int age = in.nextInt();
 
-        age_test(age);
+    age_test(age);
 
-        in.close();
+    in.close();
+  }
+
+  static int age_test(int age) {
+    if (age >= 18) {
+      System.out.println("allowed to vote");
+    } else {
+      System.out.println("not allowed to vote");
     }
-
-    static int age_test(int age) {
-        if (age >= 18) {
-            System.out.println("allowed to vote");
-        } else {
-            System.out.println("not allowed to vote");
-        }
-        return age;
-    }
+    return age;
+  }
 }

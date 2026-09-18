@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
 public class Main_03 {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+  public static void main(String[] args) {
+    Scanner in = new Scanner(System.in);
 
-        int num = in.nextInt();
+    int num = in.nextInt();
 
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(num + " x " + i + " = " + (num * i));
-        }
-
-        in.close();
+    for (int i = 1; i <= 10; i++) {
+      System.out.println(num + " x " + i + " = " + (num * i));
     }
+
+    in.close();
+  }
 }

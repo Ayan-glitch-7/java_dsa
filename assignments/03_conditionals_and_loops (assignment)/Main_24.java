@@ -1,23 +1,23 @@
 import java.util.Scanner;
 
 public class Main_24 {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        Scanner in = new Scanner(System.in);
+    Scanner in = new Scanner(System.in);
 
-        int n;
-        int sum = 0;
+    int n;
+    int sum = 0;
 
-        System.out.print("Enter numbers : ");
+    System.out.print("Enter numbers : ");
 
-        n = in.nextInt();
+    n = in.nextInt();
 
-        while (n != 0) {
-            n = in.nextInt();
-            sum = sum + n;
-        }
-        System.out.println("SUM : " + sum);
-
-        in.close();
+    while (n != 0) {
+      n = in.nextInt();
+      sum = sum + n;
     }
+    System.out.println("SUM : " + sum);
+
+    in.close();
+  }
 }
