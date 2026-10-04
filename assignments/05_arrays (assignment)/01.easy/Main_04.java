@@ -10,10 +10,12 @@ class Main_04 {
   //     for (int j = 0; j < accounts[i].length; j++) {
   //       money = money + accounts[i][j];
   //     }
+
   //     if (money > wealth) {
   //       wealth = money;
   //     }
   //   }
+
   //   return wealth;
   // }
 }

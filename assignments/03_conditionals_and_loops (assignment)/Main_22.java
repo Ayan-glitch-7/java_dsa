@@ -12,6 +12,7 @@ public class Main_22 {
   //     product = product * digit;
   //     n = n / 10;
   //   }
+  
   //   int ans = product - sum;
 
   //   return ans;

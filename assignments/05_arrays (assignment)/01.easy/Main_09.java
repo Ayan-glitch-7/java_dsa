@@ -9,8 +9,10 @@ class Main_09 {
   //     for (int j = nums.length - 1; j > index[i]; j--) {
   //       target[j] = target[j - 1];
   //     }
+
   //     target[index[i]] = nums[i];
   //   }
+
   //   return target;
   // }
 }

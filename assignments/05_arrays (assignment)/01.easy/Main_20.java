@@ -7,12 +7,15 @@ class Main_20 {
   //     if (isEqual(mat, target)) {
   //       return true;
   //     }
+
   //     mat = rotate(mat);
   //   }
+
   //   return false;
   // }
 
   // public int[][] rotate(int[][] mat) {
+
   //   int n = mat.length;
   //   int[][] ans = new int[n][n];
 
@@ -21,10 +24,12 @@ class Main_20 {
   //       ans[i][j] = mat[n - j - 1][i];
   //     }
   //   }
+
   //   return ans;
   // }
 
   // public boolean isEqual(int[][] a, int[][] b) {
+
   //   int n = a.length;
 
   //   for (int i = 0; i < n; i++) {
@@ -34,6 +39,7 @@ class Main_20 {
   //       }
   //     }
   //   }
+  
   //   return true;
   // }
 }

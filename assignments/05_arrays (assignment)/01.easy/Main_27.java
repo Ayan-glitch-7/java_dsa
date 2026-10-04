@@ -11,6 +11,7 @@ class Main_27 {
   //       nums[k] = nums[i];
   //     }
   //   }
+  
   //   return k + 1;
   // }
 }

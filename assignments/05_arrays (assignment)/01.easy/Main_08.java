@@ -11,9 +11,11 @@ class Main_08 {
   //       if (nums[j] < nums[i]) {
   //         count++;
   //       }
+
   //       ans[i] = count;
   //     }
   //   }
+
   //   return ans;
   // }
 }

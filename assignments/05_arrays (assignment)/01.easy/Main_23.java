@@ -1,8 +1,5 @@
 /* LEETCODE (# 1380) */
 
-// import java.util.ArrayList;
-// import java.util.List;
-
 class Main_23 {
   // public List<Integer> luckyNumbers(int[][] matrix) {
 
@@ -30,6 +27,7 @@ class Main_23 {
   //       ans.add(minValue);
   //     }
   //   }
+  
   //   return ans;
   // }
 }

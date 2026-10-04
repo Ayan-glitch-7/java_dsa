@@ -7,7 +7,6 @@ class Main_12 {
   //   int prev = 0;
 
   //   int[] ans = new int[gain.length + 1];
-
   //   ans[0] = 0;
 
   //   for (int i = 0; i < gain.length; i++) {
@@ -17,6 +16,7 @@ class Main_12 {
   //       max = ans[i];
   //     }
   //   }
+  
   //   return max;
   // }
 }

@@ -9,7 +9,6 @@ class Main_14 {
   //   for (int i = 0; i < indices.length; i++) {
   //     int row = indices[i][0];
   //     int col = indices[i][1];
-
   //     for (int j = 0; j < m; j++) {
   //       mat[j][col]++;
   //     }

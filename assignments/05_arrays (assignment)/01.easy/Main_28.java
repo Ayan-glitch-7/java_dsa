@@ -2,6 +2,7 @@
 
 class Main_28 {
   // public int minCostToMoveChips(int[] position) {
+
   //   int even = 0;
   //   int odd = 0;
 
@@ -12,6 +13,7 @@ class Main_28 {
   //       odd++;
   //     }
   //   }
+  
   //   int ans = Math.min(even, odd);
   //   return ans;
   // }

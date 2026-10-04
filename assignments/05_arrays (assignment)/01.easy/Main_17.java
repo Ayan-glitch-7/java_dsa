@@ -11,6 +11,7 @@ class Main_17 {
   //       ans[j][i] = temp;
   //     }
   //   }
+  
   //   return ans;
   // }
 }

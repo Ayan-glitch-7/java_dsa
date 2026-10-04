@@ -2,6 +2,7 @@
 
 class Main_10 {
   // public boolean checkIfPangram(String sentence) {
+
   //   if (sentence.length() < 26) {
   //     return false;
   //   }
@@ -11,6 +12,7 @@ class Main_10 {
   //       return false;
   //     }
   //   }
+
   //   return true;
   // }
 }

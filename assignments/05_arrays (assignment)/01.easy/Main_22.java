@@ -20,8 +20,10 @@ class Main_22 {
   //       ans[i++] = -a;
   //       a++;
   //     }
+
   //     ans[i] = 0;
   //   }
+  
   //   return ans;
   // }
 }
