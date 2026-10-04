@@ -1,42 +1,44 @@
 /* LEETCODE (# 54) */
 
 public class Main_01 {
-  // public List<Integer> spiralOrder(int[][] matrix) {
+    // public List<Integer> spiralOrder(int[][] matrix) {
+    //     List<Integer> ans = new ArrayList<>();
 
-  //   List<Integer> ans = new ArrayList<>();
+    //     int top = 0;
+    //     int right = matrix[0].length - 1;
+    //     int bottom = matrix.length - 1;
+    //     int left = 0;
 
-  //   int top = 0;
-  //   int right = matrix[0].length - 1;
-  //   int bottom = matrix.length - 1;
-  //   int left = 0;
+    //     while (top <= bottom && left <= right) {
+    //         // Left → Right
+    //         for (int i = left; i <= right; i++) {
+    //             ans.add(matrix[top][i]);
+    //         }
+    //         top++;
 
-  //   while (top <= bottom && left <= right) {
+    //         // Top → Bottom
+    //         for (int j = top; j <= bottom; j++) {
+    //             ans.add(matrix[j][right]);
+    //         }
+    //         right--;
 
-  //     for (int i = left; i <= right; i++) {
-  //       ans.add(matrix[top][i]);
-  //     }
-  //     top++;
+    //         // Right → Left
+    //         if (top <= bottom) {
+    //             for (int k = right; k >= left; k--) {
+    //                 ans.add(matrix[bottom][k]);
+    //             }
+    //             bottom--;
+    //         }
 
-  //     for (int j = top; j <= bottom; j++) {
-  //       ans.add(matrix[j][right]);
-  //     }
-  //     right--;
+    //         // Bottom → Top
+    //         if (left <= right) {
+    //             for (int l = bottom; l >= top; l--) {
+    //                 ans.add(matrix[l][left]);
+    //             }
+    //             left++;
+    //         }
+    //     }
 
-  //     if (top <= bottom) {
-  //       for (int k = right; k >= left; k--) {
-  //         ans.add(matrix[bottom][k]);
-  //       }
-  //       bottom--;
-  //     }
-
-  //     if (left <= right) {
-  //       for (int l = bottom; l >= top; l--) {
-  //         ans.add(matrix[l][left]);
-  //       }
-  //       left++;
-  //     }
-  //   }
-
-  //   return ans;
-  // }
+    //     return ans;
+    // }
 }

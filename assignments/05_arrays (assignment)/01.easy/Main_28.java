@@ -1,20 +1,20 @@
 /* LEETCODE (# 1217) */
 
 class Main_28 {
-  // public int minCostToMoveChips(int[] position) {
+    // public int minCostToMoveChips(int[] position) {
+    //     int even = 0;
+    //     int odd = 0;
 
-  //   int even = 0;
-  //   int odd = 0;
+    //     for (int i = 0; i < position.length; i++) {
+    //         if (position[i] % 2 == 0) {
+    //             even++;
+    //         } else {
+    //             odd++;
+    //         }
+    //     }
 
-  //   for (int i = 0; i < position.length; i++) {
-  //     if (position[i] % 2 == 0) {
-  //       even++;
-  //     } else {
-  //       odd++;
-  //     }
-  //   }
-  
-  //   int ans = Math.min(even, odd);
-  //   return ans;
-  // }
+    //     int ans = Math.min(even, odd);
+
+    //     return ans;
+    // }
 }

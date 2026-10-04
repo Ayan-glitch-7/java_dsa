@@ -1,41 +1,43 @@
 /* LEETCODE (# 59) */
 
 public class Main_02 {
-  // public int[][] generateMatrix(int n) {
+    // public int[][] generateMatrix(int n) {
+    //     int[][] ans = new int[n][n];
 
-  //   int[][] ans = new int[n][n];
+    //     int top = 0;
+    //     int right = n - 1;
+    //     int bottom = n - 1;
+    //     int left = 0;
 
-  //   int top = 0;
-  //   int right = n - 1;
-  //   int bottom = n - 1;
-  //   int left = 0;
+    //     int num = 1;
+    //     int target = n * n;
 
-  //   int num = 1;
-  //   int target = n * n;
+    //     while (num <= target) {
+    //         for (int i = left; i <= right; i++) {
+    //             ans[top][i] = num++;
+    //         }
+    //         top++;
 
-  //   while (num <= target) {
+    //         for (int i = top; i <= bottom; i++) {
+    //             ans[i][right] = num++;
+    //         }
+    //         right--;
 
-  //     for (int i = left; i <= right; i++) {
-  //       ans[top][i] = num++;
-  //     }
-  //     top++;
+    //         if (top <= bottom) {
+    //             for (int i = right; i >= left; i--) {
+    //                 ans[bottom][i] = num++;
+    //             }
+    //             bottom--;
+    //         }
 
-  //     for (int i = top; i <= bottom; i++) {
-  //       ans[i][right] = num++;
-  //     }
-  //     right--;
+    //         if (left <= right) {
+    //             for (int i = bottom; i >= top; i--) {
+    //                 ans[i][left] = num++;
+    //             }
+    //             left++;
+    //         }
+    //     }
 
-  //     for (int i = right; i >= left; i--) {
-  //       ans[bottom][i] = num++;
-  //     }
-  //     bottom--;
-
-  //     for (int i = bottom; i >= top; i--) {
-  //       ans[i][left] = num++;
-  //     }
-  //     left++;
-  //   }
-
-  //   return ans;
-  // }
+    //     return ans;
+    // }
 }
