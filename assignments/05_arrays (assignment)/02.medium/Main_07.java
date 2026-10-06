@@ -2,12 +2,10 @@
 
 public class Main_07 {
     // public boolean canJump(int[] nums) {
-
     //     int n = nums.length;
     //     int maxReach = 0;
 
     //     for (int i = 0; i < n; i++) {
-
     //         if (i > maxReach) {
     //             return false;
     //         }
@@ -18,6 +16,7 @@ public class Main_07 {
     //             return true;
     //         }
     //     }
+
     //     return true;
     // }
 }
