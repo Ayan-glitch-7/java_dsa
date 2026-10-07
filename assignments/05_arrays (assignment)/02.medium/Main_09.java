@@ -2,7 +2,6 @@
 
 public class Main_09 {
     // public void sortColors(int[] nums) {
-
     //     int n = nums.length;
 
     //     int red = 0;
@@ -32,6 +31,7 @@ public class Main_09 {
     //         white--;
     //         pos++;
     //     }
+
     //     while (blue > 0) {
     //         nums[pos] = 2;
     //         blue--;
