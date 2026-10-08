@@ -2,7 +2,6 @@
 
 public class Main_10 {
     // public int rob(int[] nums) {
-
     //     int n = nums.length;
 
     //     if (n == 0) {
@@ -18,9 +17,11 @@ public class Main_10 {
 
     //     for (int i = 0; i < n; i++) {
     //         int a = Math.max(p1, p2 + nums[i]);
+
     //         p2 = p1;
     //         p1 = a;
     //     }
+
     //     return p1;
     // }
 }
