@@ -2,7 +2,6 @@
 
 public class Main_01 {
     // public int mySqrt(int x) {
-
     //     if (x == 0) {
     //         return 0;
     //     } else if (x == 1) {
@@ -11,10 +10,9 @@ public class Main_01 {
 
     //     int start = 1;
     //     int end = x;
-    //     int mid;
 
     //     while (start <= end) {
-    //         mid = start + (end - start) / 2;
+    //         int mid = start + (end - start) / 2;
     //         long square = (long) mid * mid;
 
     //         if (square > x) {
@@ -25,6 +23,7 @@ public class Main_01 {
     //             return mid;
     //         }
     //     }
-    //     return Math.round(end);
+
+    //     return end;
     // }
 }
