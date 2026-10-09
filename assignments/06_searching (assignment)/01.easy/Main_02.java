@@ -2,7 +2,6 @@
 
 public class Main_02 {
     // public int guessNumber(int n) {
-
     //     int start = 1;
     //     int end = n;
 
@@ -18,6 +17,7 @@ public class Main_02 {
     //             return mid;
     //         }
     //     }
+
     //     return -1;
     // }
 }
