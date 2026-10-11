@@ -2,7 +2,6 @@
 
 public class Main_05 {
     // public boolean isPerfectSquare(int num) {
-
     //     int start = 0;
     //     int end = num;
 
@@ -18,6 +17,7 @@ public class Main_05 {
     //             return true;
     //         }
     //     }
+
     //     return false;
     // }
 }
