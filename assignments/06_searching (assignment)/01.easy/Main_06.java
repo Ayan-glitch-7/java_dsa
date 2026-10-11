@@ -2,13 +2,12 @@
 
 public class Main_06 {
     // public int arrangeCoins(int n) {
-
     //     long start = 0;
     //     long end = n;
 
     //     while (start <= end) {
     //         long mid = start + (end - start) / 2;
-    //         long sum = (mid * (mid + 1) / 2);
+    //         long sum = mid * (mid + 1) / 2;
 
     //         if (sum < n) {
     //             start = mid + 1;
@@ -18,6 +17,7 @@ public class Main_06 {
     //             return (int) mid;
     //         }
     //     }
+
     //     return (int) end;
     // }
 }
