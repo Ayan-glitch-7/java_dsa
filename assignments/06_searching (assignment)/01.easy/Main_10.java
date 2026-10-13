@@ -2,7 +2,6 @@
 
 public class Main_10 {
     // public int peakIndexInMountainArray(int[] arr) {
-
     //     int start = 0;
     //     int end = arr.length - 1;
 
@@ -15,6 +14,7 @@ public class Main_10 {
     //             start = mid + 1;
     //         }
     //     }
+
     //     return start;
     // }
 }
