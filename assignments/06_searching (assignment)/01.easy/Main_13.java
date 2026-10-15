@@ -1,44 +1,27 @@
 /* LEETCODE (#350) */
 
-// import java.util.Arrays;
-
 public class Main_13 {
     // public int[] intersect(int[] nums1, int[] nums2) {
-
-    //     int[] ans = new int[nums2.length];
-    //     int j = 0;
-
     //     Arrays.sort(nums1);
     //     Arrays.sort(nums2);
 
-    //     for (int i = 0; i < nums2.length; i++) {
-    //         int ans1 = binarySearch(nums1, nums2[i]);
+    //     int[] ans = new int[Math.min(nums1.length, nums2.length)];
+    //     int i = 0;
+    //     int j = 0;
+    //     int k = 0;
 
-    //         if (ans1 != -1) {
-    //             ans[j++] = nums2[i];
-    //             nums1[ans1] = Integer.MIN_VALUE;
-    //             Arrays.sort(nums1);
-    //         }
-    //     }
-    //     return Arrays.copyOf(ans, j);
-    // }
-
-    // public int binarySearch(int[] arr, int target) {
-
-    //     int start = 0;
-    //     int end = arr.length - 1;
-
-    //     while (start <= end) {
-    //         int mid = start + (end - start) / 2;
-
-    //         if (arr[mid] < target) {
-    //             start = mid + 1;
-    //         } else if (arr[mid] > target) {
-    //             end = mid - 1;
+    //     while (i < nums1.length && j < nums2.length) {
+    //         if (nums1[i] == nums2[j]) {
+    //             ans[k++] = nums1[i];
+    //             i++;
+    //             j++;
+    //         } else if (nums1[i] < nums2[j]) {
+    //             i++;
     //         } else {
-    //             return mid;
+    //             j++;
     //         }
     //     }
-    //     return -1;
+
+    //     return Arrays.copyOf(ans, k);
     // }
 }
