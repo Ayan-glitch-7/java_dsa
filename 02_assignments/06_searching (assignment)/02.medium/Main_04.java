@@ -2,7 +2,6 @@
 
 public class Main_04 {
     // public boolean search(int[] nums, int target) {
-
     //     int start = 0;
     //     int end = nums.length - 1;
 
@@ -25,7 +24,7 @@ public class Main_04 {
     //             } else {
     //                 start = mid + 1;
     //             }
-    //         } else if (nums[start] > nums[mid]) {
+    //         } else {
     //             if (nums[mid] < target && target <= nums[end]) {
     //                 start = mid + 1;
     //             } else {
@@ -33,6 +32,7 @@ public class Main_04 {
     //             }
     //         }
     //     }
+
     //     return false;
     // }
 }
