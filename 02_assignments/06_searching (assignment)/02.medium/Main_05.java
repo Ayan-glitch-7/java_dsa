@@ -2,7 +2,6 @@
 
 public class Main_05 {
     // public int findMin(int[] nums) {
-
     //     int start = 0;
     //     int end = nums.length - 1;
 
@@ -15,6 +14,7 @@ public class Main_05 {
     //             start = mid + 1;
     //         }
     //     }
+
     //     return nums[start];
     // }
 }
