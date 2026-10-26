@@ -1,16 +1,14 @@
 /* LEETCODE (# 561) */
 
-import java.util.Arrays;
-
 public class Main_09 {
-  public int arrayPairSum(int[] nums) {
+    // public int arrayPairSum(int[] nums) {
+    //     Arrays.sort(nums);
+    //     int s = 0;
 
-    Arrays.sort(nums);
-    int s = 0;
+    //     for (int i = 0; i < nums.length; i += 2) {
+    //         s += nums[i];
+    //     }
 
-    for (int i = 0; i < nums.length; i = i + 2) {
-      s = s + nums[i];
-    }
-    return s;
-  }
+    //     return s;
+    // }
 }
