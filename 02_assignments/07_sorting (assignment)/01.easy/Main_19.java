@@ -1,51 +1,52 @@
 /* LEETCODE (# 1331) */
 
-// import java.util.Arrays;
-
 public class Main_19 {
-  // public int[] arrayRankTransform(int[] arr) {
-  //   if (arr.length == 0) {
-  //     return arr;
-  //   }
+    // public int[] arrayRankTransform(int[] arr) {
 
-  //   int[] temp = arr.clone();
-  //   Arrays.sort(temp);
+    //     if (arr.length == 0) {
+    //         return arr;
+    //     }
 
-  //   int[] rank = new int[temp.length];
-  //   int r = 1;
+    //     int[] temp = arr.clone();
+    //     Arrays.sort(temp);
 
-  //   rank[0] = r;
+    //     int[] rank = new int[temp.length];
+    //     int r = 1;
 
-  //   for (int i = 1; i < temp.length; i++) {
-  //     if (temp[i] != temp[i - 1]) {
-  //       r++;
-  //     }
-  //     rank[i] = r;
-  //   }
+    //     rank[0] = r;
 
-  //   for (int i = 0; i < arr.length; i++) {
-  //     int index = binarySearch(temp, arr[i]);
-  //     arr[i] = rank[index];
-  //   }
-  //   return arr;
-  // }
+    //     for (int i = 1; i < temp.length; i++) {
+    //         if (temp[i] != temp[i - 1]) {
+    //             r++;
+    //         }
+    //         rank[i] = r;
+    //     }
 
-  // static int binarySearch(int[] arr, int target) {
-  //   int low = 0;
-  //   int high = arr.length - 1;
+    //     for (int i = 0; i < arr.length; i++) {
+    //         int index = binarySearch(temp, arr[i]);
+    //         arr[i] = rank[index];
+    //     }
 
-  //   while (low <= high) {
-  //     int mid = low + (high - low) / 2;
+    //     return arr;
+    // }
 
-  //     if (arr[mid] == target) {
-  //       return mid;
-  //     } else if (arr[mid] < target) {
-  //       low = mid + 1;
-  //     } else {
-  //       high = mid - 1;
-  //     }
-  //   }
+    // static int binarySearch(int[] arr, int target) {
 
-  //   return -1;
-  // }
+    //     int low = 0;
+    //     int high = arr.length - 1;
+
+    //     while (low <= high) {
+    //         int mid = low + (high - low) / 2;
+
+    //         if (arr[mid] == target) {
+    //             return mid;
+    //         } else if (arr[mid] < target) {
+    //             low = mid + 1;
+    //         } else {
+    //             high = mid - 1;
+    //         }
+    //     }
+
+    //     return -1;
+    // }
 }
