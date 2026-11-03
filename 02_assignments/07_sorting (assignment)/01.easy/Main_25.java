@@ -1,18 +1,16 @@
 /* LEETCODE (# 1502) */
 
-// import java.util.Arrays;
-
 public class Main_25 {
-  // public boolean canMakeArithmeticProgression(int[] arr) {
+    // public boolean canMakeArithmeticProgression(int[] arr) {
+    //     Arrays.sort(arr);
+    //     int diff = arr[1] - arr[0];
 
-  //   Arrays.sort(arr);
-  //   int diff = arr[1] - arr[0];
+    //     for (int i = 1; i < arr.length - 1; i++) {
+    //         if (arr[i + 1] - arr[i] != diff) {
+    //             return false;
+    //         }
+    //     }
 
-  //   for (int i = 1; i < arr.length - 1; i++) {
-  //     if (arr[i + 1] - arr[i] != diff) {
-  //       return false;
-  //     }
-  //   }
-  //   return true;
-  // }
+    //     return true;
+    // }
 }
