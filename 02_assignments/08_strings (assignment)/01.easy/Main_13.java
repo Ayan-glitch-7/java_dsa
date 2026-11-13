@@ -1,19 +1,18 @@
 /* LEETCODE (# 168) */
 
 public class Main_13 {
-  // public String convertToTitle(int columnNumber) {
+    // public String convertToTitle(int columnNumber) {
+    //     StringBuilder ans = new StringBuilder();
 
-  //   StringBuilder ans = new StringBuilder();
+    //     while (columnNumber > 0) {
+    //         columnNumber--;
 
-  //   while (columnNumber > 0) {
-  //     columnNumber--;
+    //         int remainder = columnNumber % 26;
+    //         ans.append((char) ('A' + remainder));
 
-  //     int remainder = columnNumber % 26;
-  //     ans.append((char) ('A' + remainder));
+    //         columnNumber = columnNumber / 26;
+    //     }
 
-  //     columnNumber = columnNumber / 26;
-  //   }
-
-  //   return ans.reverse().toString();
-  // }
+    //     return ans.reverse().toString();
+    // }
 }
