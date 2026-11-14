@@ -1,24 +1,24 @@
 /* LEETCODE (# 925) */
 
 public class Main_15 {
-    // public boolean isLongPressedName(String name, String typed) {
-    //     int i = 0;
-    //     int j = 0;
+    public boolean isLongPressedName(String name, String typed) {
+        int i = 0;
+        int j = 0;
 
-    //     while (j < typed.length()) {
-    //         if (i < name.length() && name.charAt(i) == typed.charAt(j)) {
-    //             i++;
-    //         } else if (j == 0 || typed.charAt(j) != typed.charAt(j - 1)) {
-    //             return false;
-    //         }
+        while (j < typed.length()) {
+            if (i < name.length() && name.charAt(i) == typed.charAt(j)) {
+                i++;
+            } else if (j == 0 || typed.charAt(j) != typed.charAt(j - 1)) {
+                return false;
+            }
 
-    //         j++;
-    //     }
+            j++;
+        }
 
-    //     if (i == name.length()) {
-    //         return true;
-    //     }
+        if (i == name.length()) {
+            return true;
+        }
 
-    //     return false;
-    // }
+        return false;
+    }
 }
