@@ -7,6 +7,7 @@ public class N_to_one {
         if (n == 0) {
             return;
         }
+        
         System.out.println(n);
         print(n - 1);
     }
